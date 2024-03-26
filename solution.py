@@ -74,7 +74,7 @@ def solvepart2():
     print(sum)
 
 #uses caching to recursively check all possible springs efficently
-#uses strings instead of arrays so caching can happen
+#uses strings/tuples instead of arrays so caching can happen
 @cache
 def checkAllArrangmentsCaching(currentSpring, currentRecord, springRowLen):
     if currentSpring == "":
